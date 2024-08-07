@@ -1,0 +1,25 @@
+{
+  "name": "SIMPKM APP DOCKER",
+  "forwardPorts": [],
+  "remoteUser": "root",
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "ms-vscode.live-server",
+        "grapecity.gc-excelviewer",
+        "visualstudioexptteam.vscodeintellicode",
+        "bmewburn.vscode-intelephense-client",
+        "eamodio.gitlens",
+        "adereksisusanto.codeigniter4-extension-pack"
+      ]
+    }
+  },
+  "dockerComposeFile": "./../docker-compose.yml",
+  "service": "app",
+  "workspaceFolder": "/var/www/html",
+  "shutdownAction": "stopCompose",
+  "mounts": [
+    "source=${localEnv:HOME}${localEnv:USERPROFILE}/.ssh,target=/home/root/.ssh,type=bind,consistency=cached"
+  ],
+  "postStartCommand": "sh docker/app/install.sh"
+}

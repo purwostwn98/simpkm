@@ -1,0 +1,65 @@
+version: '3.8'
+
+services:
+  # CodeIgniter service
+  app:
+    build:
+      context: .
+      dockerfile: ./docker/app/Dockerfile
+    image: codeigniter-app
+    container_name: codeigniter-app
+    restart: unless-stopped
+    expose:
+      - 9000
+    volumes:
+      - .:/var/www/html
+    environment:
+      - APP_ENV=local
+      - DB_HOST=mysql
+      - DB_DATABASE=codeigniter_db
+      - DB_USERNAME=root
+      - DB_PASSWORD=root_password
+    networks:
+      - ci_network
+
+  # MySQL service
+  mysql:
+    image: mysql:5.7
+    container_name: codeigniter-mysql
+    restart: unless-stopped
+    environment:
+      MYSQL_DATABASE: codeigniter_db
+      MYSQL_ROOT_PASSWORD: root_password
+    ports:
+      - "3306:3306"
+    volumes:
+      - mysql_data:/var/lib/mysql
+    networks:
+      - ci_network
+
+  # NGINX service
+  nginx:
+    image: nginx:latest
+    container_name: codeigniter-nginx
+    restart: unless-stopped
+    build:
+      context: .
+      dockerfile: ./docker/proxy/Dockerfile
+    ports:
+      - "80:80"
+    volumes:
+      - .:/var/www/html
+    depends_on:
+      - app
+    networks:
+      - ci_network
+    environment:
+      NGINX_FPM_HOST: app
+      NGINX_ROOT: /var/www/html
+
+networks:
+  ci_network:
+    driver: bridge
+
+volumes:
+  mysql_data:
