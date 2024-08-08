@@ -60,7 +60,7 @@ $session = \Config\Services::session();
                             <!-- Dashboard -->
                             <!-- ---------------------------------- -->
                             <li class="sidebar-item">
-                                <a class="sidebar-link" href="/admin" id="get-url" aria-expanded="false">
+                                <a class="sidebar-link <?= $sidebar[0] == 'admin-dashboard' ? 'active' : ''; ?>" href="/admin" id="get-url" aria-expanded="false">
                                     <span>
                                         <i class="ti ti-aperture"></i>
                                     </span>
@@ -68,7 +68,7 @@ $session = \Config\Services::session();
                                 </a>
                             </li>
                             <li class="sidebar-item">
-                                <a class="sidebar-link" href="/proposal-diajukan" aria-expanded="false">
+                                <a class="sidebar-link <?= $sidebar[0] == 'admin-proposal-diajukan' ? 'active' : ''; ?>" href="/admin/proposal-diajukan" aria-expanded="false">
                                     <span>
                                         <i class="ti ti-shopping-cart"></i>
                                     </span>
@@ -76,7 +76,7 @@ $session = \Config\Services::session();
                                 </a>
                             </li>
                             <li class="sidebar-item">
-                                <a class="sidebar-link" href="/proposal-review" aria-expanded="false">
+                                <a class="sidebar-link <?= $sidebar[0] == 'admin-dashboard' ? 'active' : ''; ?>" href="/admin/proposal-review" aria-expanded="false">
                                     <span>
                                         <i class="ti ti-currency-dollar"></i>
                                     </span>
@@ -84,7 +84,7 @@ $session = \Config\Services::session();
                                 </a>
                             </li>
                             <li class="sidebar-item">
-                                <a class="sidebar-link" href="/proposal-lolos" aria-expanded="false">
+                                <a class="sidebar-link <?= $sidebar[0] == 'admin-proposal-lolos' ? 'active' : ''; ?>" href="/admin/proposal-lolos" aria-expanded="false">
                                     <span>
                                         <i class="ti ti-cpu"></i>
                                     </span>
