@@ -95,7 +95,7 @@
                                     </button>
                                     <ul class="dropdown-menu">
                                         <li>
-                                            <a class="dropdown-item" href="/proposal-diajukan/detail">Detail</a>
+                                            <a class="dropdown-item" href="/admin/proposal-diajukan/detail">Detail</a>
                                         </li>
                                         <li>
                                             <a class="dropdown-item" href="javascript:void(0)">Atur reviewer</a>
@@ -116,7 +116,7 @@
                                     </button>
                                     <ul class="dropdown-menu">
                                         <li>
-                                            <a class="dropdown-item" href="/proposal-diajukan/detail">Detail</a>
+                                            <a class="dropdown-item" href="/admin/proposal-diajukan/detail">Detail</a>
                                         </li>
                                         <li>
                                             <a class="dropdown-item" href="javascript:void(0)">Atur reviewer</a>
@@ -137,7 +137,7 @@
                                     </button>
                                     <ul class="dropdown-menu">
                                         <li>
-                                            <a class="dropdown-item" href="/proposal-diajukan/detail">Detail</a>
+                                            <a class="dropdown-item" href="/admin/proposal-diajukan/detail">Detail</a>
                                         </li>
                                         <li>
                                             <a class="dropdown-item" href="javascript:void(0)">Atur reviewer</a>
@@ -158,7 +158,7 @@
                                     </button>
                                     <ul class="dropdown-menu">
                                         <li>
-                                            <a class="dropdown-item" href="/proposal-diajukan/detail">Detail</a>
+                                            <a class="dropdown-item" href="/admin/proposal-diajukan/detail">Detail</a>
                                         </li>
                                         <li>
                                             <a class="dropdown-item" href="javascript:void(0)">Atur reviewer</a>
@@ -179,7 +179,7 @@
                                     </button>
                                     <ul class="dropdown-menu">
                                         <li>
-                                            <a class="dropdown-item" href="/proposal-diajukan/detail">Detail</a>
+                                            <a class="dropdown-item" href="/admin/proposal-diajukan/detail">Detail</a>
                                         </li>
                                         <li>
                                             <a class="dropdown-item" href="javascript:void(0)">Atur reviewer</a>
