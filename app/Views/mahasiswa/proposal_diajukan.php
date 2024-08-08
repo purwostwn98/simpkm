@@ -73,13 +73,13 @@
                         <thead>
                             <!-- start row -->
                             <tr>
-                                <th>Judul PKM</th>
-                                <th>Jenis PKM</th>
-                                <th>Ketua</th>
-                                <th>Pembimbing</th>
-                                <th>Jumlah Reiewer</th>
-                                <th>Status</th>
-                                <th>Aksi</th>
+                                <th class="text-white" style="background-color: #2f3185;">Judul PKM</th>
+                                <th class="text-white" style="background-color: #2f3185;">Jenis PKM</th>
+                                <th class="text-white" style="background-color: #2f3185;">Sebagai</th>
+                                <th class="text-white" style="background-color: #2f3185;">Pembimbing</th>
+                                <th class="text-white" style="background-color: #2f3185;">Jumlah Reiewer</th>
+                                <th class="text-white" style="background-color: #2f3185;">Status</th>
+                                <th class="text-white" style="background-color: #2f3185;">Aksi</th>
                             </tr>
                             <!-- end row -->
                         </thead>
@@ -87,7 +87,7 @@
                             <tr>
                                 <td>Pemberdayaan UMKM Melalui Digital Marketing</td>
                                 <td>PKM Pengabdian Masyarakat</td>
-                                <td>Andi Santoso</td>
+                                <td>Ketua</td>
                                 <td>Dr. Budi Raharjo</td>
                                 <td>2</td>
                                 <td><span class="mb-1 badge rounded-pill bg-primary">Diajukan</span></td>
@@ -109,7 +109,7 @@
                             <tr>
                                 <td>Pengembangan Aplikasi Edukasi Anak untuk Tumbuh Kembang yang Baik</td>
                                 <td>PKM Kewirausahaan</td>
-                                <td>Siti Nurhaliza</td>
+                                <td>Anggota</td>
                                 <td>Prof. Susi Susanti</td>
                                 <td>1</td>
                                 <td><span class="mb-1 badge rounded-pill bg-success">Disetujui</span></td>

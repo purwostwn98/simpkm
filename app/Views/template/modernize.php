@@ -17,7 +17,7 @@ $session = \Config\Services::session();
     <!-- Core Css -->
     <link rel="stylesheet" href="<?= base_url(); ?>/assets/css/styles.css" />
 
-    <title>Modernize Bootstrap Admin</title>
+    <title>SIMPKM UMS</title>
     <!-- Owl Carousel  -->
     <link rel="stylesheet" href="<?= base_url(); ?>/assets/libs/owl.carousel/dist/assets/owl.carousel.min.css" />
     <link rel="stylesheet" href="<?= base_url(); ?>/assets/libs/datatables.net-bs5/css/dataTables.bootstrap5.min.css" />
