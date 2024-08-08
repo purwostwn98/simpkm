@@ -60,7 +60,7 @@ $session = \Config\Services::session();
                             <!-- Dashboard -->
                             <!-- ---------------------------------- -->
                             <li class="sidebar-item">
-                                <a class="sidebar-link" href="/admin" aria-expanded="false">
+                                <a class="sidebar-link" href="/admin" id="get-url" aria-expanded="false">
                                     <span>
                                         <i class="ti ti-aperture"></i>
                                     </span>
@@ -91,7 +91,7 @@ $session = \Config\Services::session();
                                     <span class="hide-menu">Proposal Lolos</span>
                                 </a>
                             </li>
-                          
+
                             <li class="sidebar-item">
                                 <a class="sidebar-link has-arrow" href="javascript:void(0)" aria-expanded="false">
                                     <span class="d-flex">
@@ -116,12 +116,30 @@ $session = \Config\Services::session();
                                             <span class="hide-menu">User</span>
                                         </a>
                                     </li>
+                                </ul>
+                            </li>
+                            <li class="sidebar-item">
+                                <a class="sidebar-link has-arrow" href="javascript:void(0)" aria-expanded="false">
+                                    <span class="d-flex">
+                                        <i class="ti ti-air-conditioning-disabled"></i>
+                                    </span>
+                                    <span class="hide-menu">Master Data</span>
+                                </a>
+                                <ul aria-expanded="false" class="collapse first-level">
                                     <li class="sidebar-item">
-                                        <a href="../main/component-noui-slider.html" class="sidebar-link">
+                                        <a href="../main/component-sweetalert.html" class="sidebar-link">
                                             <div class="round-16 d-flex align-items-center justify-content-center">
                                                 <i class="ti ti-circle"></i>
                                             </div>
-                                            <span class="hide-menu"></span>
+                                            <span class="hide-menu">Kategori PKM</span>
+                                        </a>
+                                    </li>
+                                    <li class="sidebar-item">
+                                        <a href="../main/component-nestable.html" class="sidebar-link">
+                                            <div class="round-16 d-flex align-items-center justify-content-center">
+                                                <i class="ti ti-circle"></i>
+                                            </div>
+                                            <span class="hide-menu">Jenis PKM</span>
                                         </a>
                                     </li>
                                 </ul>
@@ -145,7 +163,7 @@ $session = \Config\Services::session();
                             <!-- Dashboard -->
                             <!-- ---------------------------------- -->
                             <li class="sidebar-item">
-                                <a class="sidebar-link" href="" id="get-url" aria-expanded="false">
+                                <a class="sidebar-link" href="/admin" id="get-url" aria-expanded="false">
                                     <span>
                                         <i class="ti ti-aperture"></i>
                                     </span>
