@@ -25,3 +25,4 @@ $routes->get('/setting/detail', 'Setting::detail');
 $routes->get('/mahasiswa/dashboard', 'Mahasiswa::dashboard');
 $routes->get('/mahasiswa/proposal-diajukan', 'Mahasiswa::proposal_diajukan');
 $routes->get('/mahasiswa/detail-proposal', 'Mahasiswa::detail_proposal');
+$routes->get('/mahasiswa/formulir-unggah', 'Mahasiswa::formulir_unggah');

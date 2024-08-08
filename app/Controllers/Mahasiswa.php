@@ -27,4 +27,12 @@ class Mahasiswa extends BaseController
         ];
         return view('mahasiswa/detail_proposal', $data);
     }
+
+    public function formulir_unggah()
+    {
+        $data = [
+            "sidebar" => ["proposal-diajukan", ""]
+        ];
+        return view('mahasiswa/formulir_unggah', $data);
+    }
 }

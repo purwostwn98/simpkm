@@ -21,6 +21,7 @@ $session = \Config\Services::session();
     <!-- Owl Carousel  -->
     <link rel="stylesheet" href="<?= base_url(); ?>/assets/libs/owl.carousel/dist/assets/owl.carousel.min.css" />
     <link rel="stylesheet" href="<?= base_url(); ?>/assets/libs/datatables.net-bs5/css/dataTables.bootstrap5.min.css" />
+    <link rel="stylesheet" href="<?= base_url(); ?>/assets/libs/select2/dist/css/select2.min.css">
 </head>
 
 <body>
