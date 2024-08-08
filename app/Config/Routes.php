@@ -27,4 +27,8 @@ $routes->get('/mahasiswa/proposal-diajukan', 'Mahasiswa::proposal_diajukan');
 $routes->get('/mahasiswa/detail-proposal', 'Mahasiswa::detail_proposal');
 
 // Reviewer
-$routes->get('/reviewer/index', 'Reviewer::index');
+$routes->get('/reviewer', 'Reviewer\Dashboard::index');
+$routes->get('/reviewer/proposal-diajukan', 'Reviewer\ProposalDiajukan::index');
+$routes->get('/reviewer/proposal-diajukan-detail', 'Reviewer\ProposalDiajukan::detail');
+$routes->get('/reviewer/proposal-telah-direview', 'Reviewer\ProposalTelahDireview::index');
+$routes->get('/reviewer/proposal-telah-direview-detail', 'Reviewer\ProposalTelahDireview::detail');

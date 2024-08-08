@@ -1,8 +1,10 @@
 <?php
 
-namespace App\Controllers;
+namespace App\Controllers\Reviewer;
 
-class Reviewer extends BaseController
+use App\Controllers\BaseController;
+
+class Dashboard extends BaseController
 {
     public function index(): string
     {
