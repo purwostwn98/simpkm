@@ -6,16 +6,25 @@ class Mahasiswa extends BaseController
 {
     public function dashboard(): string
     {
-        return view('mahasiswa/dashboard');
+        $data = [
+            "sidebar" => ["dashboard", ""]
+        ];
+        return view('mahasiswa/dashboard', $data);
     }
 
     public function proposal_diajukan(): string
     {
-        return view('mahasiswa/proposal_diajukan');
+        $data = [
+            "sidebar" => ["proposal-diajukan", ""]
+        ];
+        return view('mahasiswa/proposal_diajukan', $data);
     }
 
     public function detail_proposal()
     {
-        return view('mahasiswa/detail_proposal');
+        $data = [
+            "sidebar" => ["proposal-diajukan", ""]
+        ];
+        return view('mahasiswa/detail_proposal', $data);
     }
 }

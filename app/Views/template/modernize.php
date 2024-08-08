@@ -1598,7 +1598,7 @@ $session = \Config\Services::session();
                             <!-- Dashboard -->
                             <!-- ---------------------------------- -->
                             <li class="sidebar-item">
-                                <a class="sidebar-link" href="/mahasiswa" id="get-url" aria-expanded="false">
+                                <a class="sidebar-link <?= $sidebar[0] == 'dashboard' ? 'active' : ''; ?>" href="/mahasiswa/dashboard" aria-expanded="false">
                                     <span>
                                         <i class="ti ti-aperture"></i>
                                     </span>
@@ -1606,7 +1606,7 @@ $session = \Config\Services::session();
                                 </a>
                             </li>
                             <li class="sidebar-item">
-                                <a class="sidebar-link" href="/mahasiswa/proposal-diajukan" aria-expanded="false">
+                                <a class="sidebar-link <?= $sidebar[0] == 'proposal-diajukan' ? 'active' : ''; ?>" href="/mahasiswa/proposal-diajukan" aria-expanded="false">
                                     <span>
                                         <i class="ti ti-shopping-cart"></i>
                                     </span>
@@ -1615,7 +1615,6 @@ $session = \Config\Services::session();
                             </li>
                         </ul>
                     <?php endif ?>
-
                 </nav>
 
                 <div class="fixed-profile p-3 mx-4 mb-2 bg-secondary-subtle rounded mt-3">
@@ -3219,21 +3218,20 @@ $session = \Config\Services::session();
 <script>
     $(document).ready(function() {
         // Dapatkan URL browser saat ini
-        var currentUrl = window.location.pathname;
+        // var currentUrl = window.location.pathname;
 
-        // Loop melalui setiap item sidebar
-        $('#sidebarnav .sidebar-item a.sidebar-link').each(function() {
-            // Dapatkan URL dari atribut href
-            var linkUrl = $(this).attr('href');
-
-            // Periksa apakah URL browser sama dengan URL dari atribut href
-            if (currentUrl === linkUrl) {
-                // Tambahkan class 'active' ke elemen a.sidebar-link
-                $(this).addClass('active');
-            } else {
-                // Hapus class 'active' jika tidak sama (opsional)
-                $(this).removeClass('active');
-            }
-        });
+        // // Loop melalui setiap item sidebar
+        // $('#sidebarnav .sidebar-item a.sidebar-link').each(function() {
+        //     // Dapatkan URL dari atribut href
+        //     var linkUrl = $(this).attr('href');
+        //     // Periksa apakah URL browser sama dengan URL dari atribut href
+        //     if (currentUrl === linkUrl) {
+        //         // Tambahkan class 'active' ke elemen a.sidebar-link
+        //         $(this).addClass('active');
+        //     } else {
+        //         // Hapus class 'active' jika tidak sama (opsional)
+        //         $(this).removeClass('active');
+        //     }
+        // });
     });
 </script>

@@ -173,7 +173,8 @@
                             <div class="card border shadow-none">
                                 <div class="card-body p-4">
                                     <h4 class="card-title mb-3 bg-success text-center pt-3 pb-3"><b>Diterima</b></h4>
-                                    <h6>Total Skor: 93.5</h6>
+                                    <h6 class="text-center"><b>Total Skor: 93.5</b></h6>
+                                    <hr>
                                     <form>
                                         <div class="row">
                                             <div class="col-lg-6">
@@ -267,12 +268,12 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-12">
+                        <!-- <div class="col-12">
                             <div class="d-flex align-items-center justify-content-end gap-6">
                                 <button class="btn btn-primary">Save</button>
                                 <button class="btn bg-danger-subtle text-danger">Cancel</button>
                             </div>
-                        </div>
+                        </div> -->
                     </div>
                 </div>
                 <div class="tab-pane fade" id="pills-security" role="tabpanel" aria-labelledby="pills-security-tab" tabindex="0">
