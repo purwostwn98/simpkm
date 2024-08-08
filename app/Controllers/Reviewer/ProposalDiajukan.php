@@ -8,11 +8,17 @@ class ProposalDiajukan extends BaseController
 {
     public function index(): string
     {
-        return view('reviewer/proposal_diajukan');
+        $data = [
+            "sidebar" => ["reviewer-proposal-diajukan", ""]
+        ];
+        return view('reviewer/proposal_diajukan', $data);
     }
 
     public function detail(): string
     {
-        return view('reviewer/proposal_diajukan_detail');
+        $data = [
+            "sidebar" => ["reviewer-proposal-diajukan", ""]
+        ];
+        return view('reviewer/proposal_diajukan_detail', $data);
     }
 }

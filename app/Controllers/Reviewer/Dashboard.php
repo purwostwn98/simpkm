@@ -8,11 +8,17 @@ class Dashboard extends BaseController
 {
     public function index(): string
     {
-        return view('reviewer/dashboard');
+        $data = [
+            "sidebar" => ["reviewer-dashboard", ""]
+        ];
+        return view('reviewer/dashboard', $data);
     }
 
     public function detail(): string
     {
-        return view('reviewer/index');
+        $data = [
+            "sidebar" => ["reviewer-dashboard", ""]
+        ];
+        return view('reviewer/index', $data);
     }
 }

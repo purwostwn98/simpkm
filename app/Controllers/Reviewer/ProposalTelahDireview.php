@@ -8,11 +8,17 @@ class ProposalTelahDireview extends BaseController
 {
     public function index(): string
     {
-        return view('reviewer/proposal_telah_direview');
+        $data = [
+            "sidebar" => ["reviewer-proposal-telah-direview", ""]
+        ];
+        return view('reviewer/proposal_telah_direview', $data);
     }
 
     public function detail(): string
     {
-        return view('reviewer/detail_proposal');
+        $data = [
+            "sidebar" => ["reviewer-proposal-telah-direview", ""]
+        ];
+        return view('reviewer/detail_proposal', $data);
     }
 }

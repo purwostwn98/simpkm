@@ -163,7 +163,7 @@ $session = \Config\Services::session();
                             <!-- Dashboard -->
                             <!-- ---------------------------------- -->
                             <li class="sidebar-item">
-                                <a class="sidebar-link" href="/reviewer" aria-expanded="false">
+                                <a class="sidebar-link <?= $sidebar[0] == 'reviewer-dashboard' ? 'active' : ''; ?>" href="/reviewer" aria-expanded="false">
                                     <span>
                                         <i class="ti ti-aperture"></i>
                                     </span>
@@ -179,7 +179,7 @@ $session = \Config\Services::session();
                                 </a>
                                 <ul aria-expanded="false" class="collapse first-level">
                                     <li class="sidebar-item">
-                                        <a href="/reviewer/proposal-diajukan" class="sidebar-link">
+                                        <a href="/reviewer/proposal-diajukan" class="sidebar-link <?= $sidebar[0] == 'reviewer-proposal-diajukan' ? 'active' : ''; ?>">
                                             <div class="round-16 d-flex align-items-center justify-content-center">
                                                 <i class="ti ti-circle"></i>
                                             </div>
@@ -187,7 +187,7 @@ $session = \Config\Services::session();
                                         </a>
                                     </li>
                                     <li class="sidebar-item">
-                                        <a href="/reviewer/proposal-telah-direview" class="sidebar-link">
+                                        <a href="/reviewer/proposal-telah-direview" class="sidebar-link <?= $sidebar[0] == 'reviewer-proposal-telah-direview' ? 'active' : ''; ?>">
                                             <div class="round-16 d-flex align-items-center justify-content-center">
                                                 <i class="ti ti-circle"></i>
                                             </div>
