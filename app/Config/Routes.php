@@ -24,3 +24,6 @@ $routes->get('/setting/detail', 'Setting::detail');
 
 $routes->get('/mahasiswa/proposal-diajukan', 'Mahasiswa::proposal_diajukan');
 $routes->get('/mahasiswa/detail-proposal', 'Mahasiswa::detail_proposal');
+
+// Reviewer
+$routes->get('/reviewer/index', 'Reviewer::index');
