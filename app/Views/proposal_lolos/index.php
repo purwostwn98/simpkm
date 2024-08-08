@@ -5,13 +5,13 @@
         <div class="card-body px-4 py-3">
             <div class="row align-items-center">
                 <div class="col-9">
-                    <h4 class="fw-semibold mb-8">Proposal Diajukan</h4>
+                    <h4 class="fw-semibold mb-8">Proposal Lolos</h4>
                     <nav aria-label="breadcrumb">
                         <ol class="breadcrumb">
                             <li class="breadcrumb-item">
                                 <a class="text-muted text-decoration-none" href="../main/index.html">Home</a>
                             </li>
-                            <li class="breadcrumb-item" aria-current="page">proposal Diajukan</li>
+                            <li class="breadcrumb-item" aria-current="page">proposal Lolos</li>
                         </ol>
                     </nav>
                 </div>
@@ -64,9 +64,8 @@
         <!-- start Zero Configuration -->
         <div class="card">
             <div class="card-body">
-                <h4 class="card-title">Deskripsi</h4>
+                <h4 class="card-title">Daftar Proposal</h4>
                 <p class="card-subtitle mb-3">
-                    Menu "Proposal Diajukan" memungkinkan admin untuk mengakses daftar proposal yang telah diajukan oleh mahasiswa. Di sini, admin dapat melihat rincian proposal, memverifikasi kelengkapan dokumen, dan memulai proses review. Fitur ini penting untuk memastikan bahwa semua proposal yang masuk diterima dan didokumentasikan dengan baik.
                 </p>
                 <div class="table-responsive">
                     <table id="zero_config" class="table table-striped table-bordered text-nowrap align-middle">
@@ -98,7 +97,7 @@
                                             <a class="dropdown-item" href="/proposal-diajukan/detail">Detail</a>
                                         </li>
                                         <li>
-                                            <a class="dropdown-item" href="javascript:void(0)">Atur reviewer</a>
+                                            <a class="dropdown-item" href="javascript:void(0)">Hasil review</a>
                                         </li>
                                         </li>
                                     </ul>
@@ -119,7 +118,7 @@
                                             <a class="dropdown-item" href="/proposal-diajukan/detail">Detail</a>
                                         </li>
                                         <li>
-                                            <a class="dropdown-item" href="javascript:void(0)">Atur reviewer</a>
+                                            <a class="dropdown-item" href="javascript:void(0)">Hasil review</a>
                                         </li>
                                         </li>
                                     </ul>
@@ -140,7 +139,7 @@
                                             <a class="dropdown-item" href="/proposal-diajukan/detail">Detail</a>
                                         </li>
                                         <li>
-                                            <a class="dropdown-item" href="javascript:void(0)">Atur reviewer</a>
+                                            <a class="dropdown-item" href="javascript:void(0)">Hasil review</a>
                                         </li>
                                         </li>
                                     </ul>
@@ -161,7 +160,7 @@
                                             <a class="dropdown-item" href="/proposal-diajukan/detail">Detail</a>
                                         </li>
                                         <li>
-                                            <a class="dropdown-item" href="javascript:void(0)">Atur reviewer</a>
+                                            <a class="dropdown-item" href="javascript:void(0)">Hasil review</a>
                                         </li>
                                         </li>
                                     </ul>
@@ -182,7 +181,7 @@
                                             <a class="dropdown-item" href="/proposal-diajukan/detail">Detail</a>
                                         </li>
                                         <li>
-                                            <a class="dropdown-item" href="javascript:void(0)">Atur reviewer</a>
+                                            <a class="dropdown-item" href="javascript:void(0)">Hasil review</a>
                                         </li>
                                         </li>
                                     </ul>

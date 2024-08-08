@@ -68,7 +68,7 @@ $session = \Config\Services::session();
                                 </a>
                             </li>
                             <li class="sidebar-item">
-                                <a class="sidebar-link" href="/propsal-diajukan" aria-expanded="false">
+                                <a class="sidebar-link" href="/proposal-diajukan" aria-expanded="false">
                                     <span>
                                         <i class="ti ti-shopping-cart"></i>
                                     </span>
@@ -76,7 +76,7 @@ $session = \Config\Services::session();
                                 </a>
                             </li>
                             <li class="sidebar-item">
-                                <a class="sidebar-link" href="./main/index3.html11" aria-expanded="false">
+                                <a class="sidebar-link" href="/proposal-review" aria-expanded="false">
                                     <span>
                                         <i class="ti ti-currency-dollar"></i>
                                     </span>
@@ -84,20 +84,47 @@ $session = \Config\Services::session();
                                 </a>
                             </li>
                             <li class="sidebar-item">
-                                <a class="sidebar-link" href="./main/index4.html" aria-expanded="false">
+                                <a class="sidebar-link" href="/proposal-lolos" aria-expanded="false">
                                     <span>
                                         <i class="ti ti-cpu"></i>
                                     </span>
                                     <span class="hide-menu">Proposal Lolos</span>
                                 </a>
                             </li>
+                          
                             <li class="sidebar-item">
-                                <a class="sidebar-link" href="./main/index5.html" aria-expanded="false">
-                                    <span>
-                                        <i class="ti ti-activity-heartbeat"></i>
+                                <a class="sidebar-link has-arrow" href="javascript:void(0)" aria-expanded="false">
+                                    <span class="d-flex">
+                                        <i class="ti ti-components"></i>
                                     </span>
-                                    <span class="hide-menu">Setting</span>
+                                    <span class="hide-menu">Pengaturan</span>
                                 </a>
+                                <ul aria-expanded="false" class="collapse first-level">
+                                    <li class="sidebar-item">
+                                        <a href="../main/component-sweetalert.html" class="sidebar-link">
+                                            <div class="round-16 d-flex align-items-center justify-content-center">
+                                                <i class="ti ti-circle"></i>
+                                            </div>
+                                            <span class="hide-menu">Kuota Proposal Lolos</span>
+                                        </a>
+                                    </li>
+                                    <li class="sidebar-item">
+                                        <a href="../main/component-nestable.html" class="sidebar-link">
+                                            <div class="round-16 d-flex align-items-center justify-content-center">
+                                                <i class="ti ti-circle"></i>
+                                            </div>
+                                            <span class="hide-menu">User</span>
+                                        </a>
+                                    </li>
+                                    <li class="sidebar-item">
+                                        <a href="../main/component-noui-slider.html" class="sidebar-link">
+                                            <div class="round-16 d-flex align-items-center justify-content-center">
+                                                <i class="ti ti-circle"></i>
+                                            </div>
+                                            <span class="hide-menu"></span>
+                                        </a>
+                                    </li>
+                                </ul>
                             </li>
 
                         </ul>
@@ -150,12 +177,38 @@ $session = \Config\Services::session();
                                 </a>
                             </li>
                             <li class="sidebar-item">
-                                <a class="sidebar-link" href="./main/index5.html" aria-expanded="false">
-                                    <span>
-                                        <i class="ti ti-activity-heartbeat"></i>
+                                <a class="sidebar-link has-arrow" href="javascript:void(0)" aria-expanded="false">
+                                    <span class="d-flex">
+                                        <i class="ti ti-components"></i>
                                     </span>
-                                    <span class="hide-menu">Setting</span>
+                                    <span class="hide-menu">Pengaturan</span>
                                 </a>
+                                <ul aria-expanded="false" class="collapse first-level">
+                                    <li class="sidebar-item">
+                                        <a href="../main/component-sweetalert.html" class="sidebar-link">
+                                            <div class="round-16 d-flex align-items-center justify-content-center">
+                                                <i class="ti ti-circle"></i>
+                                            </div>
+                                            <span class="hide-menu">Kuota Proposal Lolos</span>
+                                        </a>
+                                    </li>
+                                    <li class="sidebar-item">
+                                        <a href="../main/component-nestable.html" class="sidebar-link">
+                                            <div class="round-16 d-flex align-items-center justify-content-center">
+                                                <i class="ti ti-circle"></i>
+                                            </div>
+                                            <span class="hide-menu">User</span>
+                                        </a>
+                                    </li>
+                                    <li class="sidebar-item">
+                                        <a href="../main/component-noui-slider.html" class="sidebar-link">
+                                            <div class="round-16 d-flex align-items-center justify-content-center">
+                                                <i class="ti ti-circle"></i>
+                                            </div>
+                                            <span class="hide-menu"></span>
+                                        </a>
+                                    </li>
+                                </ul>
                             </li>
 
                             <!-- ---------------------------------- -->
