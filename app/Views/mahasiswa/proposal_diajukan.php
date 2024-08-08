@@ -11,7 +11,7 @@
                             <li class="breadcrumb-item">
                                 <a class="text-muted text-decoration-none" href="../main/index.html">Home</a>
                             </li>
-                            <li class="breadcrumb-item" aria-current="page">proposal Diajukan</li>
+                            <li class="breadcrumb-item" aria-current="page">Proposal Diajukan</li>
                         </ol>
                     </nav>
                 </div>
@@ -23,7 +23,7 @@
             </div>
         </div>
     </div>
-    <div class="card card-body">
+    <!-- <div class="card card-body">
         <div class="row">
             <div class="col-md-4 col-xl-3">
                 <form class="position-relative">
@@ -59,17 +59,17 @@
                 </a>
             </div>
         </div>
-    </div>
+    </div> -->
     <div class="datatables">
         <!-- start Zero Configuration -->
         <div class="card">
             <div class="card-body">
                 <h4 class="card-title">Deskripsi</h4>
                 <p class="card-subtitle mb-3">
-                    Menu "Proposal Diajukan" memungkinkan admin untuk mengakses daftar proposal yang telah diajukan oleh mahasiswa. Di sini, admin dapat melihat rincian proposal, memverifikasi kelengkapan dokumen, dan memulai proses review. Fitur ini penting untuk memastikan bahwa semua proposal yang masuk diterima dan didokumentasikan dengan baik.
+                    Di dalam halaman ini memungkinkan mahasiswa untuk melihat proposal yang diajukan. Baik sebagai anggota dan kelompok.
                 </p>
                 <div class="table-responsive">
-                    <table id="zero_config" class="table table-striped table-bordered text-nowrap align-middle">
+                    <table id="zero_config" class="table table-sm table-striped table-bordered align-middle w-100">
                         <thead>
                             <!-- start row -->
                             <tr>
@@ -78,6 +78,7 @@
                                 <th>Ketua</th>
                                 <th>Pembimbing</th>
                                 <th>Jumlah Reiewer</th>
+                                <th>Status</th>
                                 <th>Aksi</th>
                             </tr>
                             <!-- end row -->
@@ -89,13 +90,14 @@
                                 <td>Andi Santoso</td>
                                 <td>Dr. Budi Raharjo</td>
                                 <td>2</td>
+                                <td><span class="mb-1 badge rounded-pill bg-primary">Diajukan</span></td>
                                 <td>
                                     <button style="border: 1px solid #fec14f;" class="btn bg-warning-subtle text-warning btn-sm dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                         Atur
                                     </button>
                                     <ul class="dropdown-menu">
                                         <li>
-                                            <a class="dropdown-item" href="/proposal-diajukan/detail">Detail</a>
+                                            <a class="dropdown-item" href="/mahasiswa/detail-proposal">Detail</a>
                                         </li>
                                         <li>
                                             <a class="dropdown-item" href="javascript:void(0)">Atur reviewer</a>
@@ -105,74 +107,12 @@
                                 </td>
                             </tr>
                             <tr>
-                                <td>Pengembangan Aplikasi Edukasi Anak</td>
+                                <td>Pengembangan Aplikasi Edukasi Anak untuk Tumbuh Kembang yang Baik</td>
                                 <td>PKM Kewirausahaan</td>
                                 <td>Siti Nurhaliza</td>
                                 <td>Prof. Susi Susanti</td>
                                 <td>1</td>
-                                <td>
-                                    <button style="border: 1px solid #fec14f;" class="btn bg-warning-subtle text-warning btn-sm dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                        Atur
-                                    </button>
-                                    <ul class="dropdown-menu">
-                                        <li>
-                                            <a class="dropdown-item" href="/proposal-diajukan/detail">Detail</a>
-                                        </li>
-                                        <li>
-                                            <a class="dropdown-item" href="javascript:void(0)">Atur reviewer</a>
-                                        </li>
-                                        </li>
-                                    </ul>
-                                </td>
-                            </tr>
-                            <tr>
-                                <td>Inovasi Pengolahan Limbah Plastik</td>
-                                <td>PKM Penelitian</td>
-                                <td>Rizki Pratama</td>
-                                <td>Dr. Ahmad Yani</td>
-                                <td>2</td>
-                                <td>
-                                    <button style="border: 1px solid #fec14f;" class="btn bg-warning-subtle text-warning btn-sm dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                        Atur
-                                    </button>
-                                    <ul class="dropdown-menu">
-                                        <li>
-                                            <a class="dropdown-item" href="/proposal-diajukan/detail">Detail</a>
-                                        </li>
-                                        <li>
-                                            <a class="dropdown-item" href="javascript:void(0)">Atur reviewer</a>
-                                        </li>
-                                        </li>
-                                    </ul>
-                                </td>
-                            </tr>
-                            <tr>
-                                <td>Peningkatan Mutu Pendidikan di Desa</td>
-                                <td>PKM Pengabdian Masyarakat</td>
-                                <td>Dewi Lestari</td>
-                                <td>Dr. Setyo Budi</td>
-                                <td>1</td>
-                                <td>
-                                    <button style="border: 1px solid #fec14f;" class="btn bg-warning-subtle text-warning btn-sm dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                        Atur
-                                    </button>
-                                    <ul class="dropdown-menu">
-                                        <li>
-                                            <a class="dropdown-item" href="/proposal-diajukan/detail">Detail</a>
-                                        </li>
-                                        <li>
-                                            <a class="dropdown-item" href="javascript:void(0)">Atur reviewer</a>
-                                        </li>
-                                        </li>
-                                    </ul>
-                                </td>
-                            </tr>
-                            <tr>
-                                <td>Pemberdayaan Ekonomi Kreatif</td>
-                                <td>PKM Kewirausahaan</td>
-                                <td>Ahmad Fauzi</td>
-                                <td>Prof. Rina Suryani</td>
-                                <td>2</td>
+                                <td><span class="mb-1 badge rounded-pill bg-success">Disetujui</span></td>
                                 <td>
                                     <button style="border: 1px solid #fec14f;" class="btn bg-warning-subtle text-warning btn-sm dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                         Atur
@@ -189,18 +129,6 @@
                                 </td>
                             </tr>
                         </tbody>
-                        <tfoot>
-                            <!-- start row -->
-                            <tr>
-                                <th>Judul PKM</th>
-                                <th>Jenis PKM</th>
-                                <th>Ketua</th>
-                                <th>Pembimbing</th>
-                                <th>Jumlah Reiewer</th>
-                                <th>Aksi</th>
-                            </tr>
-                            <!-- end row -->
-                        </tfoot>
                     </table>
                 </div>
             </div>

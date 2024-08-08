@@ -14,8 +14,10 @@ class Login extends BaseController
 
         if ($group == 'admin') {
             return redirect()->to('/admin');
-        } else if ($group == 'reviewer') {
+        } elseif ($group == 'reviewer') {
             return redirect()->to('/reviewer');
+        } elseif ($group == 'mahasiswa') {
+            return redirect()->to('/mahasiswa');
         }
     }
 }

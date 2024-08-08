@@ -8,4 +8,14 @@ class Mahasiswa extends BaseController
     {
         return view('mahasiswa/dashboard');
     }
+
+    public function proposal_diajukan(): string
+    {
+        return view('mahasiswa/proposal_diajukan');
+    }
+
+    public function detail_proposal()
+    {
+        return view('mahasiswa/detail_proposal');
+    }
 }

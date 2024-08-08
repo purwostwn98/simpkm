@@ -21,3 +21,6 @@ $routes->get('/proposal-lolos/detail', 'ProposalLolos::detail');
 
 $routes->get('/setting', 'Setting::index');
 $routes->get('/setting/detail', 'Setting::detail');
+
+$routes->get('/mahasiswa/proposal-diajukan', 'Mahasiswa::proposal_diajukan');
+$routes->get('/mahasiswa/detail-proposal', 'Mahasiswa::detail_proposal');

@@ -1584,6 +1584,38 @@ $session = \Config\Services::session();
                             </li>
                         </ul>
                     <?php endif ?>
+
+                    <?php if ($session->get('group') == 'mahasiswa') : ?>
+                        <ul id="sidebarnav">
+                            <!-- ---------------------------------- -->
+                            <!-- Home -->
+                            <!-- ---------------------------------- -->
+                            <li class="nav-small-cap">
+                                <i class="ti ti-dots nav-small-cap-icon fs-4"></i>
+                                <span class="hide-menu">Home</span>
+                            </li>
+                            <!-- ---------------------------------- -->
+                            <!-- Dashboard -->
+                            <!-- ---------------------------------- -->
+                            <li class="sidebar-item">
+                                <a class="sidebar-link" href="/mahasiswa" id="get-url" aria-expanded="false">
+                                    <span>
+                                        <i class="ti ti-aperture"></i>
+                                    </span>
+                                    <span class="hide-menu">Dashboard</span>
+                                </a>
+                            </li>
+                            <li class="sidebar-item">
+                                <a class="sidebar-link" href="/mahasiswa/proposal-diajukan" aria-expanded="false">
+                                    <span>
+                                        <i class="ti ti-shopping-cart"></i>
+                                    </span>
+                                    <span class="hide-menu">Proposal Diajukan</span>
+                                </a>
+                            </li>
+                        </ul>
+                    <?php endif ?>
+
                 </nav>
 
                 <div class="fixed-profile p-3 mx-4 mb-2 bg-secondary-subtle rounded mt-3">
