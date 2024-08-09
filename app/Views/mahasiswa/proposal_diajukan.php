@@ -99,10 +99,6 @@
                                         <li>
                                             <a class="dropdown-item" href="/mahasiswa/detail-proposal">Detail</a>
                                         </li>
-                                        <li>
-                                            <a class="dropdown-item" href="javascript:void(0)">Atur reviewer</a>
-                                        </li>
-                                        </li>
                                     </ul>
                                 </td>
                             </tr>
@@ -119,11 +115,7 @@
                                     </button>
                                     <ul class="dropdown-menu">
                                         <li>
-                                            <a class="dropdown-item" href="/admin/proposal-diajukan/detail">Detail</a>
-                                        </li>
-                                        <li>
-                                            <a class="dropdown-item" href="javascript:void(0)">Atur reviewer</a>
-                                        </li>
+                                            <a class="dropdown-item" href="/mahasiswa/detail-proposal">Detail</a>
                                         </li>
                                     </ul>
                                 </td>
