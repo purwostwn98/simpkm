@@ -9,7 +9,7 @@ class ProposalReview extends BaseController
     public function index(): string
     {
         $data = [
-            "sidebar" => ["review-proposal-review", ""]
+            "sidebar" => ["admin-proposal-review", ""]
         ];
         return view('proposal_review/index', $data);
     }
@@ -17,7 +17,7 @@ class ProposalReview extends BaseController
     public function detail(): string
     {
         $data = [
-            "sidebar" => ["review-proposal-review", ""]
+            "sidebar" => ["admin-proposal-review", ""]
         ];
         return view('proposal_review/detail', $data);
     }

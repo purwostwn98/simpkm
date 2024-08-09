@@ -9,7 +9,7 @@
                     <nav aria-label="breadcrumb">
                         <ol class="breadcrumb">
                             <li class="breadcrumb-item">
-                                <a class="text-muted text-decoration-none" href="../main/index.html">Home</a>
+                                <a class="text-muted text-decoration-none" href="/mahasiswa/proposal-diajukan">Home</a>
                             </li>
                             <li class="breadcrumb-item" aria-current="page">Detail Proposal Diajukan</li>
                         </ol>
@@ -46,7 +46,7 @@
             <li class="nav-item" role="presentation">
                 <button class="nav-link position-relative rounded-0 d-flex align-items-center justify-content-center bg-transparent fs-3 py-3" id="atur_reviewer-tab" data-bs-toggle="pill" data-bs-target="#atur_reviewer" type="button" role="tab" aria-controls="atur_reviewer" aria-selected="false">
                     <i class="ti ti-topology-star-3 me-2 fs-6"></i>
-                    <span class="d-none d-md-block">Atur Reviewer</span>
+                    <span class="d-none d-md-block">Hasil Review</span>
                 </button>
             </li>
         </ul>
@@ -140,26 +140,19 @@
                         <div class="col-lg-12">
                             <div class="card border shadow-none">
                                 <div class="card-body p-4">
-                                    <h4 class="mb-3">Mathew Anderson</h4>
-                                    <p class="card-subtitle">Hello, I am Mathew Anderson. I love making websites and graphics. Lorem
-                                        ipsum dolor sit amet,
-                                        consectetur adipiscing elit.</p>
+                                    <h4 class="mb-3">Muhammad Al Fatih Hendrawan, S.T., M.T.</h4>
                                     <div class="vstack gap-3 mt-4">
                                         <div class="hstack gap-6">
                                             <i class="ti ti-briefcase text-dark fs-6"></i>
-                                            <h6 class=" mb-0">Sir, P P Institute Of Science</h6>
+                                            <h6 class=" mb-0">Teknik Mesin</h6>
                                         </div>
                                         <div class="hstack gap-6">
                                             <i class="ti ti-mail text-dark fs-6"></i>
-                                            <h6 class=" mb-0">xyzmathewanderson@gmail.com</h6>
-                                        </div>
-                                        <div class="hstack gap-6">
-                                            <i class="ti ti-device-desktop text-dark fs-6"></i>
-                                            <h6 class=" mb-0">www.xyz.com</h6>
+                                            <h6 class=" mb-0">mah246@ums.ac.id</h6>
                                         </div>
                                         <div class="hstack gap-6">
                                             <i class="ti ti-map-pin text-dark fs-6"></i>
-                                            <h6 class=" mb-0">Newyork, USA - 100001</h6>
+                                            <h6 class=" mb-0">087635445356</h6>
                                         </div>
                                     </div>
                                 </div>
@@ -172,32 +165,117 @@
                         <div class="col-lg-12">
                             <div class="card border shadow-none">
                                 <div class="card-body p-4">
-                                    <h4 class="card-title mb-3">Penganturan Reviewer</h4>
+                                    <h4 class="card-title mb-3 bg-success text-center pt-3 pb-3"><b>Diterima</b></h4>
+                                    <h6 class="text-center"><b>Total Skor: 93.5</b></h6>
+                                    <hr>
                                     <form>
                                         <div class="row">
                                             <div class="col-lg-6">
                                                 <div class="mb-3">
                                                     <label for="exampleInputtext6" class="form-label">Review 1</label>
-                                                    <input type="text" class="form-control" id="exampleInputtext6" placeholder="Visitor Analytics">
+                                                    <table class="table table-sm table-striped table-bordered align-middle w-100">
+                                                        <thead>
+                                                            <!-- start row -->
+                                                            <tr class="text-center">
+                                                                <th>Pertanyaan</th>
+                                                                <th>Bobot</th>
+                                                                <th>Nilai</th>
+                                                            </tr>
+                                                            <!-- end row -->
+                                                        </thead>
+                                                        <tbody>
+                                                            <tr>
+                                                                <td>Kedekatan reviewer dengan bidang</td>
+                                                                <td>-</td>
+                                                                <td>8</td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td>Kreativitas</td>
+                                                                <td>45%</td>
+                                                                <td>10</td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td>Potensi Program</td>
+                                                                <td>35%</td>
+                                                                <td>10</td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td>Administrasi</td>
+                                                                <td>20%</td>
+                                                                <td>8</td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td><b>Total Nilai</b></td>
+                                                                <td></td>
+                                                                <td>96</td>
+                                                            </tr>
+                                                        </tbody>
+                                                    </table>
+                                                    <label for="exampleInputtext8" class="form-label">Komentar:</label>
+                                                    <div class="alert alert-secondary" role="alert">
+                                                        PKM PM ini sudah bagus, akan lebih baik ditambahkan permasalahan berupa data dan fakta dari pihak mitra.
+                                                    </div>
                                                 </div>
                                             </div>
                                             <div class="col-lg-6">
                                                 <div class="mb-3">
                                                     <label for="exampleInputtext9" class="form-label">Reviewer 2</label>
-                                                    <input type="text" class="form-control" id="exampleInputtext9" placeholder="Arts, Media & Entertainment">
+                                                    <table class="table table-sm table-striped table-bordered align-middle w-100">
+                                                        <thead>
+                                                            <!-- start row -->
+                                                            <tr class="text-center">
+                                                                <th>Pertanyaan</th>
+                                                                <th>Bobot</th>
+                                                                <th>Nilai</th>
+                                                            </tr>
+                                                            <!-- end row -->
+                                                        </thead>
+                                                        <tbody>
+                                                            <tr>
+                                                                <td>Kedekatan reviewer dengan bidang</td>
+                                                                <td>-</td>
+                                                                <td>6</td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td>Kreativitas</td>
+                                                                <td>45%</td>
+                                                                <td>9</td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td>Potensi Program</td>
+                                                                <td>35%</td>
+                                                                <td>7</td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td>Administrasi</td>
+                                                                <td>20%</td>
+                                                                <td>10</td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td><b>Total Nilai</b></td>
+                                                                <td></td>
+                                                                <td>91</td>
+                                                            </tr>
+                                                        </tbody>
+                                                    </table>
+                                                    <label for="exampleInputtext8" class="form-label">Komentar:</label>
+                                                    <div class="alert alert-secondary" role="alert">
+                                                        Overall is Good, tolong perbaiki bagian pendahuluan. Kuatkan masalah yang terjadi.
+                                                    </div>
                                                 </div>
                                             </div>
                                         </div>
                                     </form>
+                                    
                                 </div>
                             </div>
                         </div>
-                        <div class="col-12">
+                        <!-- <div class="col-12">
                             <div class="d-flex align-items-center justify-content-end gap-6">
                                 <button class="btn btn-primary">Save</button>
                                 <button class="btn bg-danger-subtle text-danger">Cancel</button>
                             </div>
-                        </div>
+                        </div> -->
                     </div>
                 </div>
                 <div class="tab-pane fade" id="pills-security" role="tabpanel" aria-labelledby="pills-security-tab" tabindex="0">

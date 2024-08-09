@@ -94,7 +94,7 @@
                                     </button>
                                     <ul class="dropdown-menu" style="">
                                         <li>
-                                            <a class="dropdown-item" href="/admin/proposal-diajukan/detail">Detail</a>
+                                            <a class="dropdown-item" href="/admin/proposal-review/detail">Detail</a>
                                         </li>
                                         <li>
                                             <a class="dropdown-item" href="javascript:void(0)">Hasil review</a>
@@ -115,7 +115,7 @@
                                     </button>
                                     <ul class="dropdown-menu" style="">
                                         <li>
-                                            <a class="dropdown-item" href="/admin/proposal-diajukan/detail">Detail</a>
+                                            <a class="dropdown-item" href="/admin/proposal-review/detail">Detail</a>
                                         </li>
                                         <li>
                                             <a class="dropdown-item" href="javascript:void(0)">Hasil review</a>
@@ -136,7 +136,7 @@
                                     </button>
                                     <ul class="dropdown-menu" style="">
                                         <li>
-                                            <a class="dropdown-item" href="/admin/proposal-diajukan/detail">Detail</a>
+                                            <a class="dropdown-item" href="/admin/proposal-review/detail">Detail</a>
                                         </li>
                                         <li>
                                             <a class="dropdown-item" href="javascript:void(0)">Hasil review</a>
@@ -157,7 +157,7 @@
                                     </button>
                                     <ul class="dropdown-menu" style="">
                                         <li>
-                                            <a class="dropdown-item" href="/admin/proposal-diajukan/detail">Detail</a>
+                                            <a class="dropdown-item" href="/admin/proposal-review/detail">Detail</a>
                                         </li>
                                         <li>
                                             <a class="dropdown-item" href="javascript:void(0)">Hasil review</a>
@@ -178,7 +178,7 @@
                                     </button>
                                     <ul class="dropdown-menu" style="">
                                         <li>
-                                            <a class="dropdown-item" href="/admin/proposal-diajukan/detail">Detail</a>
+                                            <a class="dropdown-item" href="/admin/proposal-review/detail">Detail</a>
                                         </li>
                                         <li>
                                             <a class="dropdown-item" href="javascript:void(0)">Hasil review</a>

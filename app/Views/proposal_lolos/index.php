@@ -25,39 +25,9 @@
     </div>
     <div class="card card-body">
         <div class="row">
-            <div class="col-md-4 col-xl-3">
-                <form class="position-relative">
-                    <select class="form-select" id="inputSelect1">
-                        <option>Tahun</option>
-                        <option>2021</option>
-                        <option>2022</option>
-                        <option>2023</option>
-                    </select>
-                </form>
-            </div>
-            <div class="col-md-4 col-xl-3">
-                <form class="position-relative">
-                    <select class="form-select" id="inputSelect1">
-                        <option>Jenis PKM</option>
-                        <option>Pendanan</option>
-                        <option>Karya Tulis</option>
-                    </select>
-                </form>
-            </div>
-            <div class="col-md-4 col-xl-3">
-                <form class="position-relative">
-                    <select class="form-select" id="inputSelect1">
-                        <option>Category PKM</option>
-                        <option>PKM KC</option>
-                        <option>PKM RE</option>
-                    </select>
-                </form>
-            </div>
-            <div class="col-md-4 col-xl-3 text-end d-flex justify-content-md-end justify-content-center mt-3 mt-md-0">
-                <a href="javascript:void(0)" id="btn-add-contact" class="btn btn-primary d-flex align-items-center">
-                    <i class="ti ti-search text-white me-1 fs-5"></i> Search
-                </a>
-            </div>
+            <button type="button" class="btn btn-lg btn-rounded btn-primary">
+                Kunci Proposal Lolos
+            </button>
         </div>
     </div>
     <div class="datatables">
@@ -77,7 +47,7 @@
                                 <th>Ketua</th>
                                 <th>Pembimbing</th>
                                 <th>Jumlah Reiewer</th>
-                                <th>Aksi</th>
+                                <th>Status</th>
                             </tr>
                             <!-- end row -->
                         </thead>
@@ -89,18 +59,10 @@
                                 <td>Dr. Budi Raharjo</td>
                                 <td>2</td>
                                 <td>
-                                    <button style="border: 1px solid #fec14f;" class="btn bg-warning-subtle text-warning btn-sm dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                        Atur
+                                    <button style="border: 1px solid #28a745;" class="btn bg-success-subtle text-sucess btn-sm" type="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                        Lolos
                                     </button>
-                                    <ul class="dropdown-menu" style="">
-                                        <li>
-                                            <a class="dropdown-item" href="/admin/proposal-diajukan/detail">Detail</a>
-                                        </li>
-                                        <li>
-                                            <a class="dropdown-item" href="javascript:void(0)">Hasil review</a>
-                                        </li>
-                                        </li>
-                                    </ul>
+                                    
                                 </td>
                             </tr>
                             <tr>
@@ -110,18 +72,10 @@
                                 <td>Prof. Susi Susanti</td>
                                 <td>1</td>
                                 <td>
-                                    <button style="border: 1px solid #fec14f;" class="btn bg-warning-subtle text-warning btn-sm dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                        Atur
+                                    <button style="border: 1px solid #28a745;" class="btn bg-success-subtle text-sucess btn-sm" type="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                        Lolos
                                     </button>
-                                    <ul class="dropdown-menu" style="">
-                                        <li>
-                                            <a class="dropdown-item" href="/admin/proposal-diajukan/detail">Detail</a>
-                                        </li>
-                                        <li>
-                                            <a class="dropdown-item" href="javascript:void(0)">Hasil review</a>
-                                        </li>
-                                        </li>
-                                    </ul>
+                                    
                                 </td>
                             </tr>
                             <tr>
@@ -131,18 +85,10 @@
                                 <td>Dr. Ahmad Yani</td>
                                 <td>2</td>
                                 <td>
-                                    <button style="border: 1px solid #fec14f;" class="btn bg-warning-subtle text-warning btn-sm dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                        Atur
+                                    <button style="border: 1px solid #28a745;" class="btn bg-success-subtle text-sucess btn-sm" type="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                        Lolos
                                     </button>
-                                    <ul class="dropdown-menu" style="">
-                                        <li>
-                                            <a class="dropdown-item" href="/admin/proposal-diajukan/detail">Detail</a>
-                                        </li>
-                                        <li>
-                                            <a class="dropdown-item" href="javascript:void(0)">Hasil review</a>
-                                        </li>
-                                        </li>
-                                    </ul>
+                                    
                                 </td>
                             </tr>
                             <tr>
@@ -152,18 +98,10 @@
                                 <td>Dr. Setyo Budi</td>
                                 <td>1</td>
                                 <td>
-                                    <button style="border: 1px solid #fec14f;" class="btn bg-warning-subtle text-warning btn-sm dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                        Atur
+                                    <button style="border: 1px solid #28a745;" class="btn bg-success-subtle text-sucess btn-sm" type="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                        Lolos
                                     </button>
-                                    <ul class="dropdown-menu" style="">
-                                        <li>
-                                            <a class="dropdown-item" href="/admin/proposal-diajukan/detail">Detail</a>
-                                        </li>
-                                        <li>
-                                            <a class="dropdown-item" href="javascript:void(0)">Hasil review</a>
-                                        </li>
-                                        </li>
-                                    </ul>
+                                    
                                 </td>
                             </tr>
                             <tr>
@@ -173,18 +111,10 @@
                                 <td>Prof. Rina Suryani</td>
                                 <td>2</td>
                                 <td>
-                                    <button style="border: 1px solid #fec14f;" class="btn bg-warning-subtle text-warning btn-sm dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                        Atur
+                                    <button style="border: 1px solid #28a745;" class="btn bg-success-subtle text-sucess btn-sm" type="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                        Lolos
                                     </button>
-                                    <ul class="dropdown-menu" style="">
-                                        <li>
-                                            <a class="dropdown-item" href="/admin/proposal-diajukan/detail">Detail</a>
-                                        </li>
-                                        <li>
-                                            <a class="dropdown-item" href="javascript:void(0)">Hasil review</a>
-                                        </li>
-                                        </li>
-                                    </ul>
+                                    
                                 </td>
                             </tr>
                         </tbody>
@@ -196,7 +126,7 @@
                                 <th>Ketua</th>
                                 <th>Pembimbing</th>
                                 <th>Jumlah Reiewer</th>
-                                <th>Aksi</th>
+                                <th>Status</th>
                             </tr>
                             <!-- end row -->
                         </tfoot>
