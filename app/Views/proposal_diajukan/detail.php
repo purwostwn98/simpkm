@@ -172,23 +172,53 @@
                         <div class="col-lg-12">
                             <div class="card border shadow-none">
                                 <div class="card-body p-4">
-                                    <h4 class="card-title mb-3">Penganturan Reviewer</h4>
-                                    <form>
-                                        <div class="row">
-                                            <div class="col-lg-6">
-                                                <div class="mb-3">
-                                                    <label for="exampleInputtext6" class="form-label">Review 1</label>
-                                                    <input type="text" class="form-control" id="exampleInputtext6" placeholder="Visitor Analytics">
-                                                </div>
-                                            </div>
-                                            <div class="col-lg-6">
-                                                <div class="mb-3">
-                                                    <label for="exampleInputtext9" class="form-label">Reviewer 2</label>
-                                                    <input type="text" class="form-control" id="exampleInputtext9" placeholder="Arts, Media & Entertainment">
-                                                </div>
-                                            </div>
+                                    <h4 class="card-title mb-3">Pengaturan Reviewer</h4>
+                                    <button type="button" class="btn btn-primary mb-3" data-bs-toggle="modal" data-bs-target="#bs-example-modal-sm">
+                                        Tambah Reviewer
+                                    </button>
+                                    <div class="col-12">
+                                        <div class="table-responsive mb-4 border rounded-1">
+                                            <table class="table text-nowrap mb-0 align-middle">
+                                                <thead class="text-dark fs-4">
+                                                    <tr>
+                                                        <th>
+                                                            <h6 class="fs-4 fw-semibold mb-0">No</h6>
+                                                        </th>
+                                                        <th>
+                                                            <h6 class="fs-4 fw-semibold mb-0">Nama Reviewer</h6>
+                                                        </th>
+                                                        <th>
+                                                            <h6 class="fs-4 fw-semibold mb-0">Aksi</h6>
+                                                        </th>
+                                                    </tr>
+                                                </thead>
+                                                <tbody>
+                                                    <tr>
+                                                        <td>
+                                                            <p class="mb-0 fw-normal">1</p>
+                                                        </td>
+                                                        <td>
+                                                            <p class="mb-0 fw-normal">Budiono Siregar</p>
+                                                        </td>
+                                                        <td>
+                                                            <span class="badge bg-primary-subtle text-primary">Hapus</span>
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>
+                                                            <p class="mb-0 fw-normal">2</p>
+                                                        </td>
+                                                        <td>
+                                                            <p class="mb-0 fw-normal">Tantowiyahya</p>
+                                                        </td>
+                                                        <td>
+                                                            <span class="badge bg-primary-subtle text-primary">Hapus</span>
+                                                        </td>
+                                                    </tr>
+                                                </tbody>
+                                            </table>
                                         </div>
-                                    </form>
+                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -243,6 +273,32 @@
             </div>
         </div>
     </div>
+</div>
+
+<div class="modal fade" id="bs-example-modal-sm" tabindex="-1" aria-labelledby="mySmallModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-sm">
+        <div class="modal-content">
+            <div class="modal-header d-flex align-items-center">
+                <h4 class="modal-title" id="myModalLabel">
+                    Tambah Reviewer
+                </h4>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <div class="mb-12">
+                    <label for="exampleInputtext" class="form-label">Nama Reviewer</label>
+                    <input type="text" class="form-control" id="exampleInputtext" value=""  placeholder="Mathew Anderson">
+                </div>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn bg-danger-subtle text-danger  waves-effect" data-bs-dismiss="modal">
+                    Save
+                </button>
+            </div>
+        </div>
+        <!-- /.modal-content -->
+    </div>
+    <!-- /.modal-dialog -->
 </div>
 
 <?= $this->endSection(); ?>
