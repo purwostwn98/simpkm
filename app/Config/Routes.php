@@ -33,3 +33,11 @@ $routes->get('/reviewer/proposal-diajukan', 'Reviewer\ProposalDiajukan::index');
 $routes->get('/reviewer/proposal-diajukan-detail', 'Reviewer\ProposalDiajukan::detail');
 $routes->get('/reviewer/proposal-telah-direview', 'Reviewer\ProposalTelahDireview::index');
 $routes->get('/reviewer/proposal-telah-direview-detail', 'Reviewer\ProposalTelahDireview::detail');
+
+//Pembimbing
+$routes->get('/pembimbing/dashboard', 'Pembimbing\Dashboard::index');
+$routes->get('/pembimbing/proposal-verifikasi', 'Pembimbing\Proposal::proposal_verifikasi');
+$routes->get('/pembimbing/proposal-verifikasi-detail', 'Pembimbing\Proposal::proposal_verifikasi_detail');
+$routes->get('/pembimbing/proposal-telahdireview', 'Pembimbing\Proposal::proposal_telah_direview');
+$routes->get('/pembimbing/proposal-proses', 'Pembimbing\Proposal::proposal_proses');
+$routes->get('/pembimbing/proposal-proses-detail', 'Pembimbing\Proposal::proposal_proses_detail');

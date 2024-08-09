@@ -18,6 +18,8 @@ class Login extends BaseController
             return redirect()->to('/reviewer');
         } elseif ($group == 'mahasiswa') {
             return redirect()->to('/mahasiswa/dashboard');
+        } elseif ($group == 'pembimbing') {
+            return redirect()->to('/pembimbing/dashboard');
         }
     }
 }

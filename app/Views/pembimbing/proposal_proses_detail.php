@@ -165,55 +165,15 @@
                         <div class="col-lg-12">
                             <div class="card border shadow-none">
                                 <div class="card-body p-4">
-                                    <h4 class="card-title mb-3 bg-success text-center pt-3 pb-3"><b>Diterima</b></h4>
-                                    <h6 class="text-center"><b>Total Skor: 93.5</b></h6>
+                                    <h6 class="text-center"><b>Total Skor: --</b></h6>
                                     <hr>
                                     <form>
                                         <div class="row">
                                             <div class="col-lg-6">
                                                 <div class="mb-3">
                                                     <label for="exampleInputtext6" class="form-label">Review 1</label>
-                                                    <table class="table table-sm table-striped table-bordered align-middle w-100">
-                                                        <thead>
-                                                            <!-- start row -->
-                                                            <tr class="text-center">
-                                                                <th>Pertanyaan</th>
-                                                                <th>Bobot</th>
-                                                                <th>Nilai</th>
-                                                            </tr>
-                                                            <!-- end row -->
-                                                        </thead>
-                                                        <tbody>
-                                                            <tr>
-                                                                <td>Kedekatan reviewer dengan bidang</td>
-                                                                <td>-</td>
-                                                                <td>8</td>
-                                                            </tr>
-                                                            <tr>
-                                                                <td>Kreativitas</td>
-                                                                <td>45%</td>
-                                                                <td>10</td>
-                                                            </tr>
-                                                            <tr>
-                                                                <td>Potensi Program</td>
-                                                                <td>35%</td>
-                                                                <td>10</td>
-                                                            </tr>
-                                                            <tr>
-                                                                <td>Administrasi</td>
-                                                                <td>20%</td>
-                                                                <td>8</td>
-                                                            </tr>
-                                                            <tr>
-                                                                <td><b>Total Nilai</b></td>
-                                                                <td></td>
-                                                                <td>96</td>
-                                                            </tr>
-                                                        </tbody>
-                                                    </table>
-                                                    <label for="exampleInputtext8" class="form-label">Komentar:</label>
-                                                    <div class="alert alert-secondary" role="alert">
-                                                        PKM PM ini sudah bagus, akan lebih baik ditambahkan permasalahan berupa data dan fakta dari pihak mitra.
+                                                    <div class="alert alert-info" role="alert">
+                                                        Dalam proses review ...
                                                     </div>
                                                 </div>
                                             </div>
@@ -266,24 +226,6 @@
                                             </div>
                                         </div>
                                     </form>
-                                    <div class="row">
-                                        <div class="col-md-12">
-                                            <div class="card card-body text-warning" style="background-color: #2f3184;">
-                                                <h4 class="card-title mb-1 text-white"><b>Unggah File Perbaikan Proposal</b></h4>
-                                                <div class="mb-3">
-                                                    <label for="formFile" class="mb-3"><i>File dalam format pdf, max 10 mb</i></label>
-                                                    <input class="form-control" type="file" id="formFile">
-                                                </div>
-                                                <div class="row">
-                                                    <div class="col-12">
-                                                        <button type="submit" class="btn btn-warning">
-                                                            Submit Proposal
-                                                        </button>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
                                 </div>
                             </div>
                         </div>

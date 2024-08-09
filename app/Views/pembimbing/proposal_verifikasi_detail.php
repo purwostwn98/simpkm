@@ -5,11 +5,11 @@
         <div class="card-body px-4 py-3">
             <div class="row align-items-center">
                 <div class="col-9">
-                    <h4 class="fw-semibold mb-8">Detail Proposal Diajukan</h4>
+                    <h4 class="fw-semibold mb-8">Detail Permintaan Verifikasi Proposal</h4>
                     <nav aria-label="breadcrumb">
                         <ol class="breadcrumb">
                             <li class="breadcrumb-item">
-                                <a class="text-muted text-decoration-none" href="/mahasiswa/proposal-diajukan">Home</a>
+                                <a class="text-muted text-decoration-none" href="/pembimbing/proposal-verifikasi">Proposal</a>
                             </li>
                             <li class="breadcrumb-item" aria-current="page">Detail Proposal Diajukan</li>
                         </ol>
@@ -26,7 +26,13 @@
     <div class="card">
         <ul class="nav nav-pills user-profile-tab" id="pills-tab" role="tablist">
             <li class="nav-item" role="presentation">
-                <button class="nav-link position-relative rounded-0 active d-flex align-items-center justify-content-center bg-transparent fs-3 py-3" id="pills-account-tab" data-bs-toggle="pill" data-bs-target="#pills-account" type="button" role="tab" aria-controls="pills-account" aria-selected="true">
+                <button class="nav-link position-relative rounded-0 active d-flex align-items-center justify-content-center bg-warning fs-3 py-3" id="atur_reviewer-tab" data-bs-toggle="pill" data-bs-target="#atur_reviewer" type="button" role="tab" aria-controls="atur_reviewer" aria-selected="false">
+                    <i class="ti ti-topology-star-3 me-2 fs-6"></i>
+                    <span class="d-none d-md-block"><b>Verifikasi</b></span>
+                </button>
+            </li>
+            <li class="nav-item" role="presentation">
+                <button class="nav-link position-relative rounded-0 d-flex align-items-center justify-content-center bg-transparent fs-3 py-3" id="pills-account-tab" data-bs-toggle="pill" data-bs-target="#pills-account" type="button" role="tab" aria-controls="pills-account" aria-selected="true">
                     <i class="ti ti-user-circle me-2 fs-6"></i>
                     <span class="d-none d-md-block">Detail Proposal</span>
                 </button>
@@ -43,16 +49,10 @@
                     <span class="d-none d-md-block">Kelompok</span>
                 </button>
             </li>
-            <li class="nav-item" role="presentation">
-                <button class="nav-link position-relative rounded-0 d-flex align-items-center justify-content-center bg-transparent fs-3 py-3" id="atur_reviewer-tab" data-bs-toggle="pill" data-bs-target="#atur_reviewer" type="button" role="tab" aria-controls="atur_reviewer" aria-selected="false">
-                    <i class="ti ti-topology-star-3 me-2 fs-6"></i>
-                    <span class="d-none d-md-block">Hasil Review</span>
-                </button>
-            </li>
         </ul>
         <div class="card-body">
             <div class="tab-content" id="pills-tabContent">
-                <div class="tab-pane fade show active" id="pills-account" role="tabpanel" aria-labelledby="pills-account-tab" tabindex="0">
+                <div class="tab-pane fade" id="pills-account" role="tabpanel" aria-labelledby="pills-account-tab" tabindex="0">
                     <div class="row">
                         <div class="col-12">
                             <div class="card w-100 border position-relative overflow-hidden mb-0">
@@ -75,16 +75,16 @@
                                             <div class="col-lg-6">
                                                 <div class="mb-3">
                                                     <label for="exampleInputtext" class="form-label">Fakultas</label>
-                                                    <input type="text" class="form-control" id="exampleInputtext" value="FKI" disabled placeholder="Mathew Anderson">
+                                                    <input type="text" class="form-control" id="exampleInputtext" value="Teknik" disabled placeholder="Mathew Anderson">
                                                 </div>
                                                 <div class="mb-3">
                                                     <label for="exampleInputtext" class="form-label">Prodi</label>
-                                                    <input type="text" class="form-control" id="exampleInputtext" value="Informatika" disabled placeholder="Mathew Anderson">
+                                                    <input type="text" class="form-control" id="exampleInputtext" value="Teknik Mesin" disabled placeholder="Mathew Anderson">
                                                 </div>
                                             </div>
                                             <div class="col-12">
                                                 <div>
-                                                    <label for="exampleInputtext4" class="form-label">Dokument Proposal</label>
+                                                    <label for="exampleInputtext4" class="form-label">Dokumen Proposal</label>
                                                 </div>
                                                 <div class="table-responsive mb-4 border rounded-1">
                                                     <table class="table text-nowrap mb-0 align-middle">
@@ -108,17 +108,6 @@
                                                                 </td>
                                                                 <td>
                                                                     <p class="mb-0 fw-normal">29 April 2024 23:01:54</p>
-                                                                </td>
-                                                                <td>
-                                                                    <span class="badge bg-primary-subtle text-primary">lihat dokumen</span>
-                                                                </td>
-                                                            </tr>
-                                                            <tr>
-                                                                <td>
-                                                                    <p class="mb-0 fw-normal">2</p>
-                                                                </td>
-                                                                <td>
-                                                                    <p class="mb-0 fw-normal">30 April 2024 21:01:54</p>
                                                                 </td>
                                                                 <td>
                                                                     <span class="badge bg-primary-subtle text-primary">lihat dokumen</span>
@@ -160,130 +149,20 @@
                         </div>
                     </div>
                 </div>
-                <div class="tab-pane fade" id="atur_reviewer" role="tabpanel" aria-labelledby="atur_reviewer-tab" tabindex="0">
+                <div class="tab-pane fade  show active" id="atur_reviewer" role="tabpanel" aria-labelledby="atur_reviewer-tab" tabindex="0">
                     <div class="row justify-content-center">
                         <div class="col-lg-12">
                             <div class="card border shadow-none">
                                 <div class="card-body p-4">
-                                    <h4 class="card-title mb-3 bg-success text-center pt-3 pb-3"><b>Diterima</b></h4>
-                                    <h6 class="text-center"><b>Total Skor: 93.5</b></h6>
-                                    <hr>
-                                    <form>
-                                        <div class="row">
-                                            <div class="col-lg-6">
-                                                <div class="mb-3">
-                                                    <label for="exampleInputtext6" class="form-label">Review 1</label>
-                                                    <table class="table table-sm table-striped table-bordered align-middle w-100">
-                                                        <thead>
-                                                            <!-- start row -->
-                                                            <tr class="text-center">
-                                                                <th>Pertanyaan</th>
-                                                                <th>Bobot</th>
-                                                                <th>Nilai</th>
-                                                            </tr>
-                                                            <!-- end row -->
-                                                        </thead>
-                                                        <tbody>
-                                                            <tr>
-                                                                <td>Kedekatan reviewer dengan bidang</td>
-                                                                <td>-</td>
-                                                                <td>8</td>
-                                                            </tr>
-                                                            <tr>
-                                                                <td>Kreativitas</td>
-                                                                <td>45%</td>
-                                                                <td>10</td>
-                                                            </tr>
-                                                            <tr>
-                                                                <td>Potensi Program</td>
-                                                                <td>35%</td>
-                                                                <td>10</td>
-                                                            </tr>
-                                                            <tr>
-                                                                <td>Administrasi</td>
-                                                                <td>20%</td>
-                                                                <td>8</td>
-                                                            </tr>
-                                                            <tr>
-                                                                <td><b>Total Nilai</b></td>
-                                                                <td></td>
-                                                                <td>96</td>
-                                                            </tr>
-                                                        </tbody>
-                                                    </table>
-                                                    <label for="exampleInputtext8" class="form-label">Komentar:</label>
-                                                    <div class="alert alert-secondary" role="alert">
-                                                        PKM PM ini sudah bagus, akan lebih baik ditambahkan permasalahan berupa data dan fakta dari pihak mitra.
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="col-lg-6">
-                                                <div class="mb-3">
-                                                    <label for="exampleInputtext9" class="form-label">Reviewer 2</label>
-                                                    <table class="table table-sm table-striped table-bordered align-middle w-100">
-                                                        <thead>
-                                                            <!-- start row -->
-                                                            <tr class="text-center">
-                                                                <th>Pertanyaan</th>
-                                                                <th>Bobot</th>
-                                                                <th>Nilai</th>
-                                                            </tr>
-                                                            <!-- end row -->
-                                                        </thead>
-                                                        <tbody>
-                                                            <tr>
-                                                                <td>Kedekatan reviewer dengan bidang</td>
-                                                                <td>-</td>
-                                                                <td>6</td>
-                                                            </tr>
-                                                            <tr>
-                                                                <td>Kreativitas</td>
-                                                                <td>45%</td>
-                                                                <td>9</td>
-                                                            </tr>
-                                                            <tr>
-                                                                <td>Potensi Program</td>
-                                                                <td>35%</td>
-                                                                <td>7</td>
-                                                            </tr>
-                                                            <tr>
-                                                                <td>Administrasi</td>
-                                                                <td>20%</td>
-                                                                <td>10</td>
-                                                            </tr>
-                                                            <tr>
-                                                                <td><b>Total Nilai</b></td>
-                                                                <td></td>
-                                                                <td>91</td>
-                                                            </tr>
-                                                        </tbody>
-                                                    </table>
-                                                    <label for="exampleInputtext8" class="form-label">Komentar:</label>
-                                                    <div class="alert alert-secondary" role="alert">
-                                                        Overall is Good, tolong perbaiki bagian pendahuluan. Kuatkan masalah yang terjadi.
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </form>
                                     <div class="row">
-                                        <div class="col-md-12">
-                                            <div class="card card-body text-warning" style="background-color: #2f3184;">
-                                                <h4 class="card-title mb-1 text-white"><b>Unggah File Perbaikan Proposal</b></h4>
-                                                <div class="mb-3">
-                                                    <label for="formFile" class="mb-3"><i>File dalam format pdf, max 10 mb</i></label>
-                                                    <input class="form-control" type="file" id="formFile">
-                                                </div>
-                                                <div class="row">
-                                                    <div class="col-12">
-                                                        <button type="submit" class="btn btn-warning">
-                                                            Submit Proposal
-                                                        </button>
-                                                    </div>
-                                                </div>
-                                            </div>
+                                        <div class="col-6 d-flex">
+                                            <button class="btn btn-warning w-100">Tolak</button>
+                                        </div>
+                                        <div class="col-6 d-flex">
+                                            <button class="btn btn-primary w-100">Ajukan</button>
                                         </div>
                                     </div>
+                                    <hr>
                                 </div>
                             </div>
                         </div>

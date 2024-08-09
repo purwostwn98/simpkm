@@ -13,7 +13,7 @@
   <!-- Core Css -->
   <link rel="stylesheet" href="../assets/css/styles.css" />
 
-  <title>Modernize Bootstrap Admin</title>
+  <title>Login | SIMPKM UMS</title>
 </head>
 
 <body>
@@ -71,11 +71,11 @@
                   <div class="mb-4">
                     <label for="exampleInputPassword1" class="form-label">Group</label>
                     <select name="group" class="form-select" id="exampleFormControlSelect1">
-                        <option value="admin">Admin</option>
-                        <option value="mahasiswa">Mahasiswa</option>
-                        <option value="reviewer">Reviewer</option>
-                        <option value="pendamping">Pendamping</option>
-                      </select>
+                      <option value="admin">Admin</option>
+                      <option value="mahasiswa">Mahasiswa</option>
+                      <option value="reviewer">Reviewer</option>
+                      <option value="pembimbing">Pembimbing</option>
+                    </select>
                   </div>
                   <div class="d-flex align-items-center justify-content-between mb-4">
                     <div class="form-check">
@@ -100,10 +100,10 @@
       </div>
     </div>
     <script>
-  function handleColorTheme(e) {
-    document.documentElement.setAttribute("data-color-theme", e);
-  }
-</script>
+      function handleColorTheme(e) {
+        document.documentElement.setAttribute("data-color-theme", e);
+      }
+    </script>
     <button class="btn btn-primary p-3 rounded-circle d-flex align-items-center justify-content-center customizer-btn" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasExample" aria-controls="offcanvasExample">
       <i class="icon ti ti-settings fs-7"></i>
     </button>

@@ -231,6 +231,64 @@ $session = \Config\Services::session();
                             </li>
                         </ul>
                     <?php endif ?>
+
+                    <?php if ($session->get('group') == 'pembimbing') : ?>
+                        <ul id="sidebarnav">
+                            <!-- ---------------------------------- -->
+                            <!-- Home -->
+                            <!-- ---------------------------------- -->
+                            <li class="nav-small-cap">
+                                <i class="ti ti-dots nav-small-cap-icon fs-4"></i>
+                                <span class="hide-menu">Home</span>
+                            </li>
+                            <!-- ---------------------------------- -->
+                            <!-- Dashboard -->
+                            <!-- ---------------------------------- -->
+                            <li class="sidebar-item">
+                                <a class="sidebar-link <?= $sidebar[0] == 'dashboard' ? 'active' : ''; ?>" href="/pembimbing/dashboard" aria-expanded="false">
+                                    <span>
+                                        <i class="ti ti-aperture"></i>
+                                    </span>
+                                    <span class="hide-menu">Dashboard</span>
+                                </a>
+                            </li>
+
+                            <li class="sidebar-item">
+                                <a class="sidebar-link has-arrow <?= $sidebar[0] == 'proposal' ? 'active' : ''; ?>" href="javascript:void(0)" aria-expanded="false">
+                                    <span class="d-flex">
+                                        <i class="ti ti-components"></i>
+                                    </span>
+                                    <span class="hide-menu">Proposal</span>
+                                </a>
+                                <ul aria-expanded="false" class="collapse first-level">
+                                    <li class="sidebar-item">
+                                        <a href="/pembimbing/proposal-verifikasi" class="sidebar-link <?= $sidebar[1] == 'proposal-verifikasi' ? 'active' : ''; ?>">
+                                            <div class="round-16 d-flex align-items-center justify-content-center">
+                                                <i class="ti ti-circle"></i>
+                                            </div>
+                                            <span class="hide-menu">Permintaan Verifikasi</span>
+                                        </a>
+                                    </li>
+                                    <li class="sidebar-item">
+                                        <a href="/pembimbing/proposal-proses" class="sidebar-link <?= $sidebar[1] == 'proposal-proses' ? 'active' : ''; ?>">
+                                            <div class="round-16 d-flex align-items-center justify-content-center">
+                                                <i class="ti ti-circle"></i>
+                                            </div>
+                                            <span class="hide-menu">Proses Review</span>
+                                        </a>
+                                    </li>
+                                    <li class="sidebar-item">
+                                        <a href="/pembimbing/proposal-telahdireview" class="sidebar-link <?= $sidebar[1] == 'proposal-direview' ? 'active' : ''; ?>">
+                                            <div class="round-16 d-flex align-items-center justify-content-center">
+                                                <i class="ti ti-circle"></i>
+                                            </div>
+                                            <span class="hide-menu">Telah direview</span>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </li>
+                        </ul>
+                    <?php endif ?>
                 </nav>
 
                 <div class="fixed-profile p-3 mx-4 mb-2 bg-secondary-subtle rounded mt-3">
