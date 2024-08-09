@@ -38,8 +38,8 @@ $session = \Config\Services::session();
                 <!-- ---------------------------------- -->
                 <div class="brand-logo d-flex align-items-center justify-content-between">
                     <a href="./main/index.html" class="text-nowrap logo-img">
-                        <img src="<?= base_url(); ?>/assets/images/logos/dark-logo.svg" class="dark-logo" alt="Logo-Dark" />
-                        <img src="<?= base_url(); ?>/assets/images/logos/light-logo.svg" class="light-logo" alt="Logo-light" />
+                        <img width="200" src="<?= base_url(); ?>/assets/images/logos/dark-logo.png" class="dark-logo" alt="Logo-Dark" />
+                        <img width="200" src="<?= base_url(); ?>/assets/images/logos/light-logo.png" class="light-logo" alt="Logo-light" />
                     </a>
                     <a href="javascript:void(0)" class="sidebartoggler ms-auto text-decoration-none fs-5 d-block d-xl-none">
                         <i class="ti ti-x"></i>
@@ -590,8 +590,8 @@ $session = \Config\Services::session();
                             </li>
                             <li class="nav-item d-none d-xl-block">
                                 <a href="./main/index.html" class="text-nowrap nav-link">
-                                    <img src="<?= base_url(); ?>/assets/images/logos/dark-logo.svg" class="dark-logo" width="180" alt="modernize-img" />
-                                    <img src="<?= base_url(); ?>/assets/images/logos/light-logo.svg" class="light-logo" width="180" alt="modernize-img" />
+                                    <img src="<?= base_url(); ?>/assets/images/logos/dark-logo.png" class="dark-logo" width="180" alt="modernize-img" />
+                                    <img src="<?= base_url(); ?>/assets/images/logos/light-logo.png" class="light-logo" width="180" alt="modernize-img" />
                                 </a>
                             </li>
                             <li class="nav-item nav-icon-hover-bg rounded-circle d-none d-xl-flex">
@@ -773,7 +773,7 @@ $session = \Config\Services::session();
                         </ul>
                         <div class="d-block d-xl-none">
                             <a href="./main/index.html" class="text-nowrap nav-link">
-                                <img src="<?= base_url(); ?>/assets/images/logos/dark-logo.svg" width="180" alt="modernize-img" />
+                                <img src="<?= base_url(); ?>/assets/images/logos/dark-logo.png" width="180" alt="modernize-img" />
                             </a>
                         </div>
                         <a class="navbar-toggler nav-icon-hover-bg rounded-circle p-0 mx-0 border-0" href="javascript:void(0)" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
