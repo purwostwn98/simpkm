@@ -86,6 +86,7 @@ phpunit
 #-------------------------
 vendor/
 public/index.php
+app/Config/Filters.php
 #-------------------------
 # IDE / Development Files
 #-------------------------

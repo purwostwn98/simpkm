@@ -8,10 +8,10 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
   <!-- Favicon icon-->
-  <link rel="shortcut icon" type="image/png" href="../assets/images/logos/favicon.png" />
+  <link rel="shortcut icon" type="image/png" href="<?= base_url(); ?>/assets/images/logos/favicon.png" />
 
   <!-- Core Css -->
-  <link rel="stylesheet" href="../assets/css/styles.css" />
+  <link rel="stylesheet" href="<?= base_url(); ?>/assets/css/styles.css" />
 
   <title>Login | SIMPKM UMS</title>
 </head>
@@ -19,7 +19,7 @@
 <body>
   <!-- Preloader -->
   <div class="preloader">
-    <img src="../assets/images/logos/favicon.png" alt="loader" class="lds-ripple img-fluid" />
+    <img src="<?= base_url(); ?>/assets/images/logos/favicon.png" alt="loader" class="lds-ripple img-fluid" />
   </div>
   <div id="main-wrapper" class="auth-customizer-none">
     <div class="position-relative overflow-hidden radial-gradient min-vh-100 w-100">
@@ -27,11 +27,11 @@
         <div class="row">
           <div class="col-xl-7 col-xxl-8">
             <a href="../main/index.html" class="text-nowrap logo-img d-block px-4 py-9 w-100">
-              <img src="../assets/images/logos/dark-logo.svg" class="dark-logo" alt="Logo-Dark" />
-              <img src="../assets/images/logos/light-logo.svg" class="light-logo" alt="Logo-light" />
+              <img src="<?= base_url(); ?>/assets/images/logos/dark-logo.png" class="dark-logo" alt="Logo-Dark" />
+              <img src="<?= base_url(); ?>/assets/images/logos/light-logo.png" class="light-logo" alt="Logo-light" />
             </a>
             <div class="d-none d-xl-flex align-items-center justify-content-center h-n80">
-              <img src="../assets/images/backgrounds/login-security.svg" alt="modernize-img" class="img-fluid" width="500">
+              <img src="<?= base_url(); ?>/assets/images/backgrounds/login-security.svg" alt="modernize-img" class="img-fluid" width="500">
             </div>
           </div>
           <div class="col-xl-5 col-xxl-4">
@@ -40,16 +40,10 @@
                 <h2 class="mb-1 fs-7 fw-bolder">Welcome to SIMPKM</h2>
                 <p class="mb-7">Your Admin Dashboard</p>
                 <div class="row">
-                  <div class="col-6 mb-2 mb-sm-0">
+                  <div class="col-12">
                     <a class="btn text-dark border fw-normal d-flex align-items-center justify-content-center rounded-2 py-8" href="javascript:void(0)" role="button">
-                      <img src="../assets/images/svgs/google-icon.svg" alt="modernize-img" class="img-fluid me-2" width="18" height="18">
-                      <span class="flex-shrink-0">with Google</span>
-                    </a>
-                  </div>
-                  <div class="col-6">
-                    <a class="btn text-dark border fw-normal d-flex align-items-center justify-content-center rounded-2 py-8" href="javascript:void(0)" role="button">
-                      <img src="../assets/images/svgs/facebook-icon.svg" alt="modernize-img" class="img-fluid me-2" width="18" height="18">
-                      <span class="flex-shrink-0">with FB</span>
+                      <img src="<?= base_url(); ?>/assets/images/logos/favicon.png" alt="modernize-img" class="img-fluid me-2" width="18" height="18">
+                      <span class="flex-shrink-0">with CAS</span>
                     </a>
                   </div>
                 </div>
@@ -87,11 +81,7 @@
                     <a class="text-primary fw-medium fs-3" href="../main/authentication-forgot-password.html">Forgot Password ?</a>
                   </div>
                   <button type="submit" href="" class="btn btn-primary w-100 py-8 mb-4 rounded-2">Sign In</button>
-                  <div class="d-flex align-items-center justify-content-center">
-                    <p class="fs-4 mb-0 fw-medium">New to Modernize?</p>
-                    <a class="text-primary fw-medium ms-2" href="../main/authentication-register.html">Create an
-                      account</a>
-                  </div>
+
                 </form>
               </div>
             </div>
@@ -253,11 +243,11 @@
   </div>
   <div class="dark-transparent sidebartoggler"></div>
   <!-- Import Js Files -->
-  <script src="../assets/libs/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
-  <script src="../assets/libs/simplebar/dist/simplebar.min.js"></script>
-  <script src="../assets/js/theme/app.init.js"></script>
-  <script src="../assets/js/theme/theme.js"></script>
-  <script src="../assets/js/theme/app.min.js"></script>
+  <script src="<?= base_url(); ?>/assets/libs/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="<?= base_url(); ?>/assets/libs/simplebar/dist/simplebar.min.js"></script>
+  <script src="<?= base_url(); ?>/assets/js/theme/app.init.js"></script>
+  <script src="<?= base_url(); ?>/assets/js/theme/theme.js"></script>
+  <script src="<?= base_url(); ?>/assets/js/theme/app.min.js"></script>
 
   <!-- solar icons -->
   <script src="https://cdn.jsdelivr.net/npm/iconify-icon@1.0.8/dist/iconify-icon.min.js"></script>
