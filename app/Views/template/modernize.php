@@ -77,7 +77,7 @@ $session = \Config\Services::session();
                                 </a>
                             </li>
                             <li class="sidebar-item">
-                                <a class="sidebar-link <?= $sidebar[0] == 'admin-dashboard' ? 'active' : ''; ?>" href="/admin/proposal-review" aria-expanded="false">
+                                <a class="sidebar-link <?= $sidebar[0] == 'admin-proposal-review' ? 'active' : ''; ?>" href="/admin/proposal-review" aria-expanded="false">
                                     <span>
                                         <i class="ti ti-currency-dollar"></i>
                                     </span>
